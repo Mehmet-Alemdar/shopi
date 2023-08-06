@@ -1,0 +1,16 @@
+.basket-box {
+  position: relative;
+  cursor: pointer;
+}
+.bb-count {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0px 4px;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  transform: translate(50%, -50%);
+  top: 4px;
+  left: 4px;
+}

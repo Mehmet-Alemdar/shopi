@@ -1,0 +1,25 @@
+.basket-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px;
+}
+.bc-products-box {
+  flex: 0.7;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bc-total-box {
+  flex: 0.3;
+}
+
+@media screen and (max-width: 800px) {
+  .basket-container {
+    flex-direction: column;
+  }
+  .bc-products-box {
+    flex: 1;
+  }
+  .bc-total-box {
+    flex: 1;
+  }
+}

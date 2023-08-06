@@ -1,0 +1,51 @@
+.product-card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  border: 1px solid rgb(205, 205, 205);
+  overflow: hidden;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.pc-info-box {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.pc-info-box {
+  align-items: center;
+}
+.pc-info-box > * {
+  margin: 5px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pc-ib-size {
+  font-weight: 500;
+}
+.pc-ib-price {
+  font-size: 18px;
+  font-weight: bold;
+}
+.pc-ib-stock {
+  color: gray;
+  font-weight: 400;
+  font-size: 14px;
+}
+.pc-ib-button {
+  border: none;
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 2px;
+  transition: background-color 0.3s ease;
+}
+.pc-ib-button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
